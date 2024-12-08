@@ -1,0 +1,67 @@
+.file-explorer {
+    background-color: #1e2227;
+    color: #ffffff;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+  }
+  
+  .folder-structure {
+    padding-left: 0;
+  }
+  
+  .folder {
+    margin: 4px 0;
+  }
+  
+  .folder-name {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 0;
+    color: #a7adb7;
+    user-select: none;
+  }
+  
+  .arrow {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.2s ease;
+  }
+  
+  .arrow.expanded {
+    transform: rotate(90deg);
+  }
+  
+  .folder-icon {
+    margin-right: 8px;
+    color: #7a8288;
+  }
+  
+  .folder-content {
+    padding-left: 20px;
+  }
+  
+  .file {
+    display: flex;
+    align-items: center;
+    padding: 4px 0;
+    color: #a7adb7;
+    margin-left: 17px;
+  }
+  
+  .file-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    color: #7a8288;
+  }
+  
+  .file-name {
+    font-size: 14px;
+  }
+  
+  /* Optional: Add hover effects */
+  .folder-name:hover, .file:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
